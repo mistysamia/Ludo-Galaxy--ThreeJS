@@ -22,7 +22,7 @@ The design of the project is alluring. <br>
 
 <br>
 <h4>
-Project Link : <a href='https://sparkling-raindrop-67982a.netlify.app/?fbclid=IwAR1nFhVOBxo-2FYWbNV4Y6ReYCPNGRGSyBUqfjQdXBDhRRIzVrXnb4d8Z5c'>Ludo Galaxy</a></h4>
+Project Link : <a href='https://zippy-pony-6119a6.netlify.app/'>Ludo Galaxy</a></h4>
 <hr>
 <h2>
 Limitation: </h2>
