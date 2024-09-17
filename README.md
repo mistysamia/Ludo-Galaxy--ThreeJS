@@ -1,60 +1,70 @@
-# Ludo Galaxy
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
 
+<h1>Ludo Galaxy</h1>
+<p>The <strong>Ludo Galaxy</strong> project showcases the classic board game of Ludo, enriched with strategic elements and delightful features. This interactive game can be enjoyed by two to four players, maintaining all the standard rules of Ludo while introducing extra layers of fun and engagement.</p>
 
+<div class="highlight">
+  <h2>Key Features:</h2>
+  <ul>
+    <li><strong>Eight Player Stands:</strong> The game model includes eight distinct stands for players.</li>
+    <li><strong>Dynamic Grid Yard Colors:</strong> When a player rolls the die, the color of their grid yard will light up, creating a visual cue.</li>
+    <li><strong>Bold Tokens:</strong> As the player advances, the corresponding tokens on the board will become bold, prompting the player to make their next move with clarity.</li>
+    <li><strong>Player Rotation:</strong> The current player remains active until they have rolled the die and placed their token. If a move cannot be made, the next player’s turn begins seamlessly.</li>
+  </ul>
+</div>
 
-The <b>Ludo Galaxy</b> project exhibits the well known game of Ludo. This board game is full of strategies and two to four players can enjoy this recreational activity.  In this illustrative model, the game of Ludo can be relished with all the regular rules and norms, along with extra delightful features.  
-<br>
+<div class="highlight">
+  <h2>Visual Design:</h2>
+  <ul>
+    <li><strong>Adjustable Lighting:</strong> The intensity and angles of the light source can be customized to suit the player's preferences, enhancing the overall visual experience.</li>
+    <li><strong>Camera Control:</strong> Enjoy 360° views of the board with smooth camera rotation, controlled via keyboard or mouse.</li>
+  </ul>
+</div>
 
-<br>
-
-•	This game model has eight stands in total. <br>
-•	When a player of a particular yard is rolling the die, the color of that grid yard will be flaunted.<br> 
-•	During the gameplay, when the player of a particular yard is in the play, s/he will be able to proceed according to the tokens achieved through rolling the die. The token numbers will become bold in illustration and the player will have to select decisively to go ahead. <br>
-•	The player of a yard will be in the play until the die is rolled or the token that has been achieved has not been placed. If the player is unable to meet the token, the player from the next yard will get chance for play. <br>
-
-<br>
-
-
-
-The design of the project is alluring. <br>
-•	The angles and the intensity of brightness from of color from the light source can be adjusted according to the  choice of player’s wish. <br>
-•	Also, camera rotation is possible both with keyboard and mouse. <br>
-
-<br>
-<h4>
-Project Link : <a href='https://zippy-pony-6119a6.netlify.app/'>Ludo Galaxy</a></h4>
-<hr>
-<h2>
-Limitation: </h2>
-<p>
-There is a minor defect in the model that will be promptly dealt with. It is that whenever there are two tokens in one stand, it might become incomprehensible to know the number of tokens as override scenario occurs. This minor “glitch” is going to be fixed soon. 
-</p>
-<hr>
-
-<p><h4>Language :</h4> HTML, CSS, Javascript</p>
-<h4>Server :</h4> Node.js
-<h4>Libraries :</h4> Three.js
-<h4>API :</h4> WebGL
+<h4>Play Now: <a href="https://zippy-pony-6119a6.netlify.app/" target="_blank">Ludo Galaxy</a></h4>
 
 <hr>
-<h3>To Run the Project</h3>
 
-1. Make sure to install dependencies: open project in VSCode -> open command line -> type: npm install<br/>
-2. Install Parcel by typing the following command: npm install parcel -g<br/>
-3. Install Dat GUI by typing the following command: npm install dat.gui<br/>
-4. Run Parcel by typing this command: npm parcel ./src/index.html
-Ctrl + left click on the address generated in the command line. Or open your browser and copy paste this address http://localhost:1234
+<h2>Limitations:</h2>
+<p>There is a minor glitch in the current model:</p>
+<ul>
+  <li><strong>Token Overlap:</strong> When two tokens occupy the same stand, it might be difficult to distinguish between them due to an overlap issue. Rest assured, this will be addressed in a future update.</li>
+</ul>
 
+<hr>
 
-<h3>To Start a New Project </h3>
+<h2>Project Details</h2>
+<p><strong>Languages:</strong> HTML, CSS, JavaScript</p>
+<p><strong>Server:</strong> Node.js</p>
+<p><strong>Libraries:</strong> Three.js</p>
+<p><strong>API:</strong> WebGL</p>
 
-1. To install dependencies: open project in VSCode -> open command line -> type: npm init -y<br/>
-2. Install Parcel by typing the following command: npm install parcel -g<br/>
-3. Install Three by typing the following command: npm install three<br/>
-4. Install Dat GUI by typing the following command: npm install dat.gui<br/>
-5. Run Parcel by typing this command: npm parcel ./src/index.html
-Ctrl + left click on the address generated in the command line. Or open your browser and copy paste this address http://localhost:1234
+<hr>
 
+<h3>How to Run the Project:</h3>
+<ol>
+  <li><strong>Install Dependencies:</strong> Open the project in VSCode -> Open command line -> Type: <code>npm install</code></li>
+  <li><strong>Install Parcel:</strong> Type: <code>npm install parcel -g</code></li>
+  <li><strong>Install Dat.GUI:</strong> Type: <code>npm install dat.gui</code></li>
+  <li><strong>Run Parcel:</strong> Type: <code>npm parcel ./src/index.html</code></li>
+  <li>Then, <strong>Ctrl + left-click</strong> on the generated address, or open your browser and navigate to <a href="http://localhost:1234" target="_blank">http://localhost:1234</a>.</li>
+</ol>
 
+<h3>Starting a New Project:</h3>
+<ol>
+  <li><strong>Initialize Project:</strong> Open VSCode -> Open command line -> Type: <code>npm init -y</code></li>
+  <li><strong>Install Parcel:</strong> Type: <code>npm install parcel -g</code></li>
+  <li><strong>Install Three.js:</strong> Type: <code>npm install three</code></li>
+  <li><strong>Install Dat.GUI:</strong> Type: <code>npm install dat.gui</code></li>
+  <li><strong>Run Parcel:</strong> Type: <code>npm parcel ./src/index.html</code></li>
+  <li>Then, <strong>Ctrl + left-click</strong> on the generated address, or open your browser and navigate to <a href="http://localhost:1234" target="_blank">http://localhost:1234</a>.</li>
+</ol>
 
-
+</body>
+</html>
